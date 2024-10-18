@@ -1,0 +1,24 @@
+// 这个文件用于配置 C/C++ 项目的编译器路径和一些相关的编译选项。
+// 在其中，你可以指定编译器的路径、包含的头文件路径、库文件路径以及其他编译选项。
+// 这样做的目的是告诉 VSCode 如何正确地进行代码分析、代码补全、语法检查等操作。
+{
+    "configurations": [
+        {
+            "name": "Win32",
+            "includePath": [
+                "${workspaceFolder}/**"
+            ],
+            "defines": [
+                "_DEBUG",
+                "UNICODE",
+                "_UNICODE"
+            ],
+            "windowsSdkVersion": "10.0.22621.0",
+            "compilerPath": "E:/MinGW/mingw64/bin/g++.exe",
+            "cStandard": "c17",
+            "cppStandard": "c++17",
+            "intelliSenseMode": "windows-gcc-x64"
+        }
+    ],
+    "version": 4
+}
